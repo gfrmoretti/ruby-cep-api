@@ -34,6 +34,6 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2OTIxMDQwN
 
 
 ###
-GET http://localhost:3000/cep/13563810
+GET http://localhost:3000/cep/13032-440
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2OTIyMDIzNzJ9.ezHwkfKe8RSB26Zzg3pUKyiwz7n8bst7FBMwYaYQauY
 
