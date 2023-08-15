@@ -41,4 +41,10 @@ To run the tests
 ```shell
 rspec
 ```
+## Requests models
 
+I create a file named [generated-requests](./generated-requests.http) with sample requests in the main endpoints
+that was created in this API. To make easier to test the application use this request. 
+
+Obs: This file is based on IDEA IntelliJ request generator, if you use IntelliJ you will can reproduce this requests
+directly by your IDE, if not, you still can use to copy the request to an other API request like Postman.
