@@ -1,0 +1,39 @@
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "email": "gmoretti@mail.com",
+  "password": "gmoretti123",
+  "name": "gmoretti"
+}
+
+###
+GET http://localhost:3000/users/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2OTIxMDM5NzZ9.XRNh4CgE5gMPVsxgATapp7lPPegXC9FTJJ2NCicFVBU
+
+
+
+
+###
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "gmoretti@mail.com",
+  "password": "gmoretti123"
+}
+
+
+
+###
+GET http://localhost:3000/users/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2OTIxMDQwNDh9.TJPoCDbGq-R4jOAisxdkCgexz-5GW9zKPGlbrNSTSio
+
+
+
+
+###
+GET http://localhost:3000/cep/13563810
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2OTIyMDIzNzJ9.ezHwkfKe8RSB26Zzg3pUKyiwz7n8bst7FBMwYaYQauY
+
