@@ -8,6 +8,15 @@ addresses on database when request an address by cep to the API.
 - Endpoint to generate token by email and password
 - Endpoint to search address by cep and save this address with the user that made that request
 
+## Study Case Highlights
+
+- Cacheable endpoint
+- Implement many-to-many relationship
+- RestAPI external request
+- Rails MVC concepts
+- Token Authentication process
+- Address endpoint performance
+
 ## How to run
 
 To run this code you should first install all dependencies
